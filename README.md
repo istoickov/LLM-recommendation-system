@@ -70,6 +70,8 @@ This system uses **Large Language Models (LLMs)** to generate personalized recom
 3. Click the submit button to receive the top 10 closest profiles.
 4. The combination of the query, model, and preprocessing type will be displayed on the left side for future use.
 
+![Demo](demo.webp)
+
 ## Configuration
 
 - **Backend**:
