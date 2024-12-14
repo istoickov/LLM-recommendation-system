@@ -1,0 +1,50 @@
+# General
+.DS_Store
+*.log
+*.env
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Frontend (React)
+frontend/node_modules/
+frontend/build/
+frontend/.env
+frontend/.next/
+frontend/.turbo/
+frontend/.parcel-cache/
+frontend/coverage/
+frontend/dist/
+frontend/yarn-error.log
+frontend/.yarn-integrity
+frontend/npm-debug.log*
+frontend/.eslintcache
+
+# Backend (FastAPI)
+backend/.env
+backend/venv/
+backend/__pycache__/
+backend/*.sqlite3
+backend/db.sqlite3
+backend/.pytest_cache/
+backend/instance/
+backend/.mypy_cache/
+backend/.coverage
+backend/.cache/
+backend/data/*.json
+backend/data/*.npy
+backend/data/*.faiss
+backend/data_fine_tune/*.faiss
+backend/data_fine_tune/*.npy
+backend/google_colab_data/
+
+# IDE specific
+.vscode/
+.idea/
+*.swp
+
+# OS generated files
+Thumbs.db
+.DS_Store

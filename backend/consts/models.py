@@ -1,0 +1,8 @@
+BERT = "sentence-transformers/msmarco-distilbert-base-v4"
+SBERT = "Muennighoff/SBERT-base-msmarco"
+SBERT_SHORT = "sentence-transformers/distilbert-base-nli-stsb-mean-tokens"
+# ROBERTA = "FacebookAI/roberta-base"
+ROBERTA = "sentence-transformers/msmarco-roberta-base-v3"
+# DISTILBERT = "models/sentence-transformers/msmarco-distilbert-base-dot-prod-v3"
+MSMARCO = "sentence-transformers/msmarco-distilbert-base-dot-prod-v3"
+MINILM = "sentence-transformers/all-MiniLM-L6-v2"
